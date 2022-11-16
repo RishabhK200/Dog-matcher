@@ -1,0 +1,159 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.big-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* sections */
+
+.colored-section{
+    background-color: #ff4c68;
+    color: white;
+}
+white-section{
+    background-color: #fff;
+}
+
+#title{
+    text-align: left;
+}
+
+.container-fluid{
+    padding: 3% 15% 10%;
+}
+
+/* title image */
+.pic{
+    transform: rotate(25deg);
+    position: absolute;
+    
+}
+/* navigation bar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: ubuntu;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+/* download-button */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* features section */
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+   
+}
+.feature-title{
+    font-size: 3rem;
+}
+
+.feature-box{
+    padding: 5%;
+    
+}
+.fas{
+    font-size: 500%;
+    margin-bottom: 1rem;
+    color: #ef8172;
+}
+.fas:hover{
+    color:#ff4c68 ;
+}
+/* testimonials */
+
+#testimonials{
+    background-color:#ef8172 ;
+}
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#press{
+    background-color:#ef8172 ;
+    padding: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+
+#pricing{
+    padding: 100px;
+}
+
+.price-title{
+    font-size: 3rem;
+}
+
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.pricing-column{
+    padding: 3% 2% ;
+}
+
+@media (max-width: 1100px){
+
+    #title{
+        text-align: center;
+    }
+    .pic{
+         position: static;
+         transform: rotate(0);
+    }
+}
+
+#cta{
+    padding: 5% 20%;
+}
+
+#footer{
+    padding: 3% 5%;
+}
+.fa{
+    margin: 0.5% 0.5% 0.5% 0.5%;
+}
